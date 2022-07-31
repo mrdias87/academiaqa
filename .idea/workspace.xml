@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba28a891-ebe1-4ae2-8438-cae5d2254e92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/pages/PesquisaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/runner/FrameworkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/steps/PesquisaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/utils/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Pesquisa.feature" afterDir="false" />
+    <list default="true" id="ba28a891-ebe1-4ae2-8438-cae5d2254e92" name="Changes" comment="Commit inicial para o projeto de tcc da Academia de QA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/pages/PesquisaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/pages/PesquisaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/steps/PesquisaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/tcc/academia/steps/PesquisaSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Murilo Dias &lt;muka.dias@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "C:/Users/mukad/OneDrive/Área de Trabalho/TesteFramework_Hibrido"
   }
 }]]></component>
@@ -82,6 +79,21 @@
       <option name="presentableId" value="Default" />
       <updated>1658887247399</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit inicial para o projeto de tcc da Academia de QA">
+      <created>1659230782850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659230782850</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit inicial para o projeto de tcc da Academia de QA">
+      <created>1659231263932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659231263932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit inicial para o projeto de tcc da Academia de QA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial para o projeto de tcc da Academia de QA" />
   </component>
 </project>

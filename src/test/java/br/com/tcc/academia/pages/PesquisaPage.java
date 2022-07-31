@@ -31,7 +31,7 @@ public class PesquisaPage {
     @AndroidFindBy(id = "br.com.petz:id/tv_prod_name")
     private MobileElement lblNomeProduto;
 
-    @AndroidFindBy(id = "br.com.petz:id/cl_prices_module")
+    @AndroidFindBy(id = "br.com.petz:id/tv_prod_main_price")
     private MobileElement lblPrecoProduto;
 
 
@@ -73,13 +73,19 @@ public class PesquisaPage {
         return false;
     }
 
-    public boolean validarNomeProduto(){
+    public String validarNomeProduto(){
         mobile.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        return lblNomeProduto.isDisplayed();
+        if(lblNomeProduto.isDisplayed()){
+            return lblNomeProduto.getText();
+        }
+        return null;
     }
 
-    public boolean validarPrecoProduto(){
+    public String validarPrecoProduto(){
         mobile.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        return lblPrecoProduto.isDisplayed();
+        if (lblPrecoProduto.isDisplayed()){
+            return lblPrecoProduto.getText();
+        }
+        return null;
     }
 }

@@ -59,8 +59,8 @@ public class PesquisaSteps {
     @Então("verifico se os dados dele estão corretos")
     public void verificar_se_os_dados_estao_corretos(){
         try {
-            Assert.assertTrue(pesquisaPage.validarNomeProduto(),"validar o nome do produto pesquisado");
-            Assert.assertTrue(pesquisaPage.validarPrecoProduto(), "validar o preço do produto pesquisado");
+            Assert.assertEquals(pesquisaPage.validarNomeProduto(),"Ração Royal Canin Maxi - Cães Adultos - 15kg");
+            Assert.assertEquals(pesquisaPage.validarPrecoProduto(), "391,59");
         }catch (Exception e){
             e.printStackTrace();
         }
